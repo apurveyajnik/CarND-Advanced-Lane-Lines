@@ -101,4 +101,4 @@ Here's a [link to my video result](./project_video_output.mp4)
 
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-There is a chance that this pipeline might not work on an uneven surface like on mountains.
+The main issue I faced was that lane identifications where off near the tree I solved it by making changes in the gradient and by using histogram equilizer.There is a chance that this pipeline might not work on an uneven surface like on mountains. Changing the pipeline so that lane lines can be detected well at night would make it more robust.
